@@ -12,6 +12,10 @@ void setup() {
   pinMode(REDPIN, OUTPUT);
   pinMode(GREENPIN, OUTPUT);
   pinMode(BLUEPIN, OUTPUT);
+  
+  analogWrite(REDPIN, 255);
+  analogWrite(GREENPIN, 255);
+  analogWrite(BLUEPIN, 255);
 }
  
  
@@ -48,3 +52,4 @@ void loop() {
     analogWrite(GREENPIN, g);
     delay(FADESPEED);
   } 
+}
