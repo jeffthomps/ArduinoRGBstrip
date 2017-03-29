@@ -6,7 +6,7 @@
 #define GREENPIN 6
 #define BLUEPIN 3
  
-#define FADESPEED 5     // make this higher to slow down
+#define FADESPEED 10     // make this higher to slow down
  
 void setup() {
   pinMode(REDPIN, OUTPUT);
